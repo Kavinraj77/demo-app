@@ -7,11 +7,7 @@ public class CalculatorTest {
     
     @Test
     public void testAdd() {
-<<<<<<< HEAD
-        assertEquals(9.0, Calculator.add(5, 4), 0.01);
-=======
-        assertEquals(9.0, Calculator.add(5, 3), 0.01);
->>>>>>> 30028a0fcce3a2c5a0de3ab0cb0b1bfbb31fb669
+        assertEquals(8.0, Calculator.add(5, 3), 0.01);
     }
     
     @Test
