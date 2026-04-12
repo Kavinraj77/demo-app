@@ -1,6 +1,7 @@
 package com.demo.app;
 
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("==========================================");
         System.out.println("Demo Application - CI/CD Pipeline Project");
@@ -13,5 +14,8 @@ public class Main {
         System.out.println("Division: 10 / 5 = " + Calculator.divide(10, 5));
         System.out.println();
         System.out.println("Application completed successfully!");
+    }   // <-- main method closed here
+
+    public void broken() {
     }
 }
